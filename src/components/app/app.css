@@ -2,5 +2,88 @@ body {
   margin: 0;
   padding: 0;
 }
+body .page-header {
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .page-search {
+  display: flex;
+  gap: 16px;
+}
+body .page-search input {
+  padding: 8px 16px;
+  border: 1.5px solid #11a5ff;
+  border-radius: 4px;
+  outline: none;
+}
+body .page-search button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #11a5ff;
+  color: white;
+  cursor: pointer;
+}
+body .page-search button:active {
+  position: relative;
+  top: 1px;
+}
+body .page-sort button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #11a5ff;
+  color: white;
+  cursor: pointer;
+}
+body .page-sort button:active {
+  position: relative;
+  top: 1px;
+}
+body .page-list {
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 18px;
+}
+body .page-item .active-user {
+  color: #11a5ff;
+}
+body .page-item__user {
+  cursor: pointer;
+}
+body .page-item__user:hover {
+  color: #11a5ff;
+}
+body .page-item__info {
+  margin: 4px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 18px;
+}
+body .page-welcome, body .page-warning {
+  margin: 8px 24px;
+  font-size: 20px;
+}
+body .page-warning {
+  color: #ff3223;
+}
+body .page-next {
+  margin: 8px 24px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #11a5ff;
+  color: white;
+  cursor: pointer;
+}
+body .page-next:active {
+  position: relative;
+  top: 1px;
+}
 
 /*# sourceMappingURL=app.css.map */
